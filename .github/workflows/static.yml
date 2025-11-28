@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ubezpieczenie na Życie – Konsultacja</title>
+  <style>
+    body { font-family: Arial; background: #f5f7fa; margin: 0; color: #333; }
+    header { background: #1a73e8; color: white; padding: 40px 20px; text-align: center; }
+    section { max-width: 900px; margin: 40px auto; padding: 20px; }
+    .box { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin-bottom: 30px; }
+    h1, h2 { margin-top: 0; }
+    form { display: flex; flex-direction: column; gap: 15px; }
+    input, textarea, button { font-size: 16px; padding: 12px; border-radius: 8px; border: 1px solid #ccc; }
+    button { background: #1a73e8; color: white; border: none; cursor: pointer; }
+    button:hover { background: #155ec0; }
+    ul { padding-left: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ubezpieczenie na Życie – Konsultacja Online</h1>
+    <p>Dobiorę ochronę życia i zdrowia bez presji sprzedażowej.</p>
+  </header>
+
+  <section>
+    <div class="box">
+      <h2>O mnie</h2>
+      <p>Jestem wyspecjalizowanym Doradcą finansowym, który od lat pomaga klientom w wyborze najlepszych rozwiązań ubezpieczeniowych. 
+      Specjalizuję się w ubezpieczeniach na życie, zawodowych oraz ochronie zdrowia. 
+      Moim celem jest jasne przedstawienie możliwości i dopasowanie ochrony do Twojej sytuacji.</p>
+    </div>
+
+    <div class="box">
+      <h2>Jak pracuję</h2>
+      <ul>
+        <li>✔ Analizuję Twoje potrzeby i sytuację finansową</li>
+        <li>✔ Porównuję oferty kilku towarzystw ubezpieczeniowych</li>
+        <li>✔ Wyjaśniam warunki w prosty i zrozumiały sposób</li>
+        <li>✔ Pomagam wybrać rozwiązanie, które daje realną ochronę</li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h2>Umów konsultację</h2>
+      <form action="https://formspree.io/f/YOUR_ID" method="POST">
+        <input type="text" name="Imię i nazwisko" placeholder="Imię i nazwisko" required />
+        <input type="tel" name="Telefon" placeholder="Telefon" required />
+        <input type="email" name="Email" placeholder="Email (opcjonalnie)" />
+        <textarea name="Wiadomość" placeholder="Twoja sytuacja lub pytanie (opcjonalnie)"></textarea>
+        <button type="submit">Wyślij</button>
+      </form>
+    </div>
+
+    <div class="box">
+      <h2>Kontakt</h2>
+      <p>📧 Email: <strong>twojemail@example.com</strong></p>
+      <p>📞 Telefon: <strong>+48 123 456 789</strong></p>
+      <p>🌍 Lokalizacja: Katowice, woj. śląskie</p>
+    </div>
+
+    <div class="box" style="font-size:14px; color:#555; line-height:1.6;">
+      <h2>Polityka RODO</h2>
+      <p>Administratorem danych jest wyspecjalizowany Doradca finansowy. Dane z formularza będą przetwarzane wyłącznie w celu kontaktu oraz przedstawienia oferty ubezpieczenia na życie. Podanie danych jest dobrowolne, ale niezbędne do realizacji kontaktu.</p>
+      <p>Masz prawo do dostępu do danych, ich poprawiania, żądania usunięcia lub ograniczenia przetwarzania. Dane nie są udostępniane podmiotom trzecim poza niezbędnymi dostawcami narzędzi (Formspree). Kontakt w sprawie danych: twojemail@example.com.</p>
+    </div>
+  </section>
+</body>
+</html>
